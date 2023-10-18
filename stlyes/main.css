@@ -1,0 +1,119 @@
+.header-머리 {
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-items: center;
+  z-index: 999;
+}
+.도니머리사막 {
+  width: 300px;
+  display: block;
+}
+
+.hero {
+  background-color: blanchedalmond;
+  position: relative;
+}
+
+.hero .도니비디오 {
+  width: 100%;
+  /* border: 5px solid black; */
+}
+
+.main-conainer {
+  padding-top: 100px;
+}
+
+.도니머리메뉴 {
+  flex-grow: 1;
+  display: flex;
+  justify-content: space-around;
+}
+.도니머리메뉴 a {
+  color: white;
+  display: inline-flex;
+  align-items: center;
+  font-family: "Song Myung", serif;
+  font-size: 28px;
+  text-decoration: none;
+}
+
+.hero-제목 {
+  bottom: 15%;
+  left: 0px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  font-size: 35px;
+  font-family: "Song Myung", serif;
+  color: white;
+}
+
+.도니제목2 {
+  font-size: 20px;
+  margin-top: 1%;
+}
+
+.도니아래메뉴 {
+  margin: 0 auto 0 auto;
+  max-width: 1500px;
+  margin-top: 60px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.도니아래메뉴간격 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 100px 100px;
+}
+
+.도니아래메뉴 img {
+  width: 100%;
+}
+
+.도니아래메뉴 a {
+  text-decoration: none;
+  color: black;
+}
+
+.도니푸터 {
+  margin-top: 50px;
+  background-color: black;
+}
+
+.도니푸터 a {
+  text-decoration: none;
+  color: white;
+}
+
+.도니옆으로주르륵 {
+  justify-content: space-around;
+  text-align: center;
+  font-size: 30px;
+}
+
+.도니옆으로주르륵 a {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 3px;
+  border-color: white;
+  border-style: solid;
+  display: block;
+  width: 100%;
+}
+
+.도니회사 {
+  margin-top: 30px;
+  color: white;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+  padding-bottom: 40px;
+}
